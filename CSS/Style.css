@@ -1,0 +1,65 @@
+body {
+        text-align: center;
+     }
+#main {
+    width: 900px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url("../IMG/grass.png");
+    background-position: center center;
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#main * {
+    color: #FFFFFF;
+}
+
+#first-link {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+}
+
+#second-link {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+}
+
+#third-link {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+}
+
+#fourth-link {
+    position: absolute;
+    top: 300px;
+    left: 620px;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+}
+
+#human {
+    border-radius: 50px;
+    margin: 0px auto;
+    background-image: url('../IMG/nakov.jpg');
+    background-position: center center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
